@@ -21,3 +21,7 @@ pipe-tool list-nodes --node-registry-url="https://rpc.pipedev.network"
 用screen -S pipe启动的
 wallet address: solona pipenetwork
 -->
+### 启动命令
+```
+./pop   --ram 16   --max-disk 200   --cache-dir /root/download_cache   --pubKey solana wallet address
+```
